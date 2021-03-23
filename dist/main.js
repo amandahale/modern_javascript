@@ -15,7 +15,7 @@
   \******************/
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("var moment = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\"); \nvar math = __webpack_require__(/*! mathjs */ \"./node_modules/mathjs/lib/cjs/index.js\");\n\nconsole.log(\"Hello from Js!\");\nvar datetime = moment().format('MMMM Do YYYY, h:mm:ss a');\nconsole.log(datetime);\n\nconsole.log(math.sqrt(-4));\n\n//# sourceURL=webpack://modern_javascript/./index.js?");
+eval("var moment = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\");\n\nvar math = __webpack_require__(/*! mathjs */ \"./node_modules/mathjs/lib/cjs/index.js\");\n\nconsole.log(\"Hello from Js!\");\nvar datetime = moment().format('MMMM Do YYYY, h:mm:ss a');\nconsole.log(datetime);\nconsole.log(math.sqrt(-4));\nvar x = \"Bob\";\nvar y = \"today\";\nconsole.log(\"Hello, \".concat(x, \"! How are you \").concat(y, \"?\"));\nconsole.log(\"pancakes with ice cream\");\n\n//# sourceURL=webpack://modern_javascript/./index.js?");
 
 /***/ }),
 
